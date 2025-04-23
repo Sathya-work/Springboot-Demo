@@ -30,7 +30,7 @@ public class DogController {
 	
 	@RequestMapping("/")
     public String home1() {
-        return "index";
+        return "home";
     }
 
 	@RequestMapping("dogHome")
